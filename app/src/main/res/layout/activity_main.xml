@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/myNanodegree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        style="@style/ButtonsStyle"
+        android:text="@string/spotifyStreamer"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="showSpotifyStreamer"/>
+
+    <Button
+        style="@style/ButtonsStyle"
+        android:text="@string/scoresApp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="showScoresApp"/>
+
+    <Button
+        style="@style/ButtonsStyle"
+        android:text="@string/libraryApp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="showLibraryApp"/>
+
+    <Button
+        style="@style/ButtonsStyle"
+        android:text="@string/buildItBigger"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="showBuildIt"/>
+
+    <Button
+        style="@style/ButtonsStyle"
+        android:text="@string/baconReader"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="showBaconReader"/>
+
+    <Button
+        style="@style/ButtonsStyle.CapstoneButton"
+        android:text="@string/capstone"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="showCapstone"/>
+
+</LinearLayout>
